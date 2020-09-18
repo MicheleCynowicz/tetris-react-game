@@ -9,6 +9,12 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #020202;
+}
+
 .tetris {
   padding: 8px;
   margin: 0 auto;
@@ -26,7 +32,7 @@ html {
 
 .tetris-board__text {
   font-size: 18px;
-  color: #111;
+  color: #fff;
 }
 
 .tetris-board__row {
@@ -36,12 +42,12 @@ html {
 /* Styles for tiles */
 [class*=col-] {
   padding: 12px;
-  border: 1px solid #1a1c19;
+  border: 1px solid #dadada;
 }
 
 /* Default (empty) board column */
 .col-0 {
-  background-color: #020202;
+  background-color: #ffffff;
 }
 
 /* Colors for tiles */
